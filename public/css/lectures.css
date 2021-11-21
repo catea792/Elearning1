@@ -1,0 +1,17 @@
+
+.contents {
+    display:flex;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: 3% auto;
+    justify-content: space-around;
+}
+.contents .item .name{
+    margin-top: 15px;
+    font-weight: bold;
+    color: #00c6ff;
+}
+.contents .item .university{
+    margin-top: 15px;
+    font-weight: bold;
+}

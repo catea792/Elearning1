@@ -1,0 +1,56 @@
+.card .card-body .row . image{
+    margin: 3% auto;
+}
+.card-body .row{
+    display: block;
+    margin: 5% auto;
+}
+.card-body .row .title {
+    display: flex;
+    margin-top: 5%;
+    justify-content: space-between;
+    font-size: x-large;
+    border-bottom: 1px solid gainsboro;
+}
+.card-body .row .title p {
+    font-weight: bold;
+}
+.card-body .row .title a {
+    text-decoration: none;
+}
+.card-body .row .title a:hover{
+    color: red;
+}
+.card-body .row{
+    width: 100%;
+    height: auto;
+}
+.card-body .row .contents{
+    display: flex;
+    width: 100%;
+    height: auto;
+}
+.card-body .row .contents .item{
+    display: block;
+    width: 33%;
+    height: auto;
+    text-align: center;
+    border: 1px solid lightblue;
+    box-shadow: 2px 2px;
+}
+.card-body .row .contents .item .titles{
+    color: steelblue;
+    font-weight: bold;
+}
+.card-body .row .contents .item p{
+}
+.card-body .row .contents .item a{
+    text-decoration: none;
+}
+.card-body .row .contents .item a:hover{
+    color: orange;
+}
+.card-body .row .contents .item i{
+    color: orange;
+    font-size: x-large;
+}

@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css?family=Numans');
+html,body{
+    height: auto;
+    font-family: 'Numans', sans-serif;
+}
+
+.header .header-top{
+    margin-left: 0%;
+    display: flex;
+    background-color: white;
+    border-bottom: 1px solid black;
+    width: 100%;
+    height: auto;
+}
+.header-top .logo{
+    width: 45px;
+    height: 100%;
+    margin-left: 5%;
+}
+.header-top .logo a img{
+    width: 100%;
+    height: auto;
+}
+.header-top .search {
+    margin-left: 4%;
+    float: right;
+    margin-top: 10px;
+}
+
+.header-top input[type=text] {
+    padding: 6px;
+    margin-top: 8px;
+    font-size: 17px;
+    width: 250px;
+    background-color: #f2f3f5;
+    border: none;
+    outline: none;
+}
+
+.header-top .search button {
+    float: right;
+    padding: 6px 10px;
+    margin-top: 8px;
+    margin-right: 16px;
+    background: #ddd;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+}
+.header-top .search button:hover {
+    background: #ccc;
+}
+.header-top .comment{
+    margin: 0% 3% 0 3%;
+    font-size: 20px;
+    color: firebrick ;
+    font-weight: bold;
+}
+.header-top .comment p i{
+    font-size: xxx-large;
+}
+.header-top .contact{
+    color: orange;
+    margin-left: 8%;
+    font-size: 18px;
+    margin-top: 18px;
+}
+.header-top .dropdown{
+    margin-left: 8%;
+    margin-top: 1%;
+}
+.header-top .dropdown button{
+    width: 150px;
+}
+.header-top .login{
+    margin-top: 18px;
+    margin-left: 6%;
+}
+.header-top .login a{
+    text-decoration: none;
+    padding: 8px;
+    background-color: gainsboro;
+    border-radius: 5%;
+}
+.header-top .login a:hover{
+    background-color: gold;
+}
+.header-top .register{
+    margin-top: 18px;
+    margin-left: 2%;
+}
+.header-top .register a{
+    text-decoration: none;
+    padding: 8px 16px;
+    background-color: orange;
+    border-radius: 5%;
+}
+.header-top .register a:hover{
+    background-color: red;
+}
+.foot-top{
+    width: 100%;
+    height: auto;
+    display: flex;
+    margin-top: 5%;
+    border-top: 1px solid gainsboro;
+    border-bottom: 1px solid gainsboro;
+    padding-top: 2%;
+    padding-bottom:2%;
+}
+.foot-child ul{
+    display: block;
+
+}
+.foot-child ul li{
+    list-style: none;
+    margin: 8px 0;
+}
+.foot-child ul li a{
+    text-decoration: none;
+    color: blue;
+}
+.foot-child ul li a:hover{
+    color: red;
+}
+.foot-info{
+    width: 70%;
+    height: 100%;
+    margin-left: 5%;
+}
+.foot-library{
+    width: 88%;
+    height: 100%;
+}
+.foot-support-study{
+    width: 60%;
+    height: 100%;
+}
+.foot-user{
+    width: 45%;
+    height: 100%;
+}
+.foot-map{
+    margin-top: 0%;
+    margin-left: 2%;
+}
+.foot-bottom {
+    width: 85%;
+    margin: 1% auto;
+}

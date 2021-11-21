@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css?family=Numans');
+
+.container{
+    font-size: 15px;
+    height: auto;
+    font-family: 'Numans', sans-serif;
+}
+.link{
+    margin: 3% auto;
+}
+.link p a{
+    text-decoration: none;
+}
+.text-center{
+    margin-bottom: 3%;
+}
+.video{
+    margin: 4% auto;
+}
+.description h6{
+    font-weight: bold;
+}
+.requirements h6{
+    font-weight: bold;
+}
+.outcomes h6{
+    font-weight: bold;
+}
+.row p{
+    border: 1px solid gainsboro ;
+    padding: 8px;
+    background-color: gainsboro;
+}
+.row p i{
+    float: right;
+    font-size: x-large;
+}
+.row .lesson p{
+    border: 1px solid whitesmoke ;
+    padding: 5px;
+    background-color: whitesmoke;
+}
+.row .lesson .titles i{
+    color: orangered;
+    float: left;
+    padding-right: 10px;
+}
+.row .lesson .check i{
+    color: black;
+    float: left;
+    padding-right: 10px;
+}
+.lesson .col-12 ul{
+    display: block;
+}
+.lesson .col-12 ul li{
+    list-style: none;
+    margin-top: 10px;
+
+}
+.lesson .col-12 a{
+    text-decoration: none;
+    padding: 5px;
+}
+.lesson .col-12 a:hover{
+    color: orangered;
+}
+.lesson .col-12 a i{
+    margin-right: 2%;
+}
+
+.final-test {
+    color: orangered;
+}
+.final-test:hover{
+    color: black;
+}
+.final-test i{
+    margin-right: 3%;
+    font-size: x-large;
+    padding-left: 1%;
+}
