@@ -30,6 +30,8 @@ Route::group(['prefix'=>'/BK-E-learning/Profile','middleware'=>'auth'],function 
     Route::post('/update-profile',[ProfileController::class, 'change_profile'])->name('change_profile');
     Route::get('/change-password', [UserController::class, 'change_password'])->name('change_password');
     Route::post('/update-password', [UserController::class, 'update_password'])->name('update_password');
+
+    //Gửi Tuấn Anh
     Route::get('/history', [HistoryController::class, 'getAll'])->name('history');
 });
 
@@ -113,6 +115,6 @@ Route::group(['prefix'=>'/BK-E-learning/Library'], function (){
     Route::get('/grade-1',[LibraryController::class,'view_grade_1'])->name('view_grade_1');
 });
 
-
+//Gửi Tuấn Anh
 Route::post('history',[HistoryController::class, 'create'])->middleware('auth')->name('history_create');
 
