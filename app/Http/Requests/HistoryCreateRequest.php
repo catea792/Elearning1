@@ -10,6 +10,9 @@ use Symfony\Component\HttpFoundation\JsonResponse;
 
 class HistoryCreateRequest extends FormRequest
 {
+    
+    //Gửi Tuấn Anh
+
     /**
      * Determine if the user is authorized to make this request.
      *

@@ -71,6 +71,7 @@
     </div>
 </div>
 <script>
+    //Gửi Tuấn Anh
     const csrf = '{{csrf_token()}}';
 
     function saveHistory(couserId, lessonSlug) {
@@ -81,7 +82,7 @@
         };
         $.ajax({
             headers: {
-                'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+                'X-CSRF-TOKEN': csrf
             },
             type: "POST",
             url: '/history',

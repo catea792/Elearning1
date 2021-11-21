@@ -13,6 +13,9 @@ class CreateHistoryTable extends Migration
      */
     public function up()
     {
+        
+        //Gửi Tuấn Anh
+
         Schema::create('histories', function (Blueprint $table) {
             $table->id();
             $table->string('username');

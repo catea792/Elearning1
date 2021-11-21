@@ -9,6 +9,7 @@ use Illuminate\Support\Facades\Auth;
 
 class HistoryController extends Controller
 {
+    //Gửi Tuấn Anh
     public function create(HistoryCreateRequest $request)
     {
         $user = Auth::user();

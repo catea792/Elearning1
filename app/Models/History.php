@@ -7,6 +7,9 @@ use Illuminate\Database\Eloquent\Model;
 
 class History extends Model
 {
+    
+    //Gửi Tuấn Anh
+
     use HasFactory;
 
     protected $fillable = [
